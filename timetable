@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: azure-terraform-mdm1
+  name: azure-terraform-mdm
   language: terraform
   description: |
     azure-terraform-mdm
