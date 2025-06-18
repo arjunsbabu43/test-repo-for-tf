@@ -1,1 +1,18 @@
-0600 wakeup
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-terraform-mdm
+  language: terraform
+  description: |
+    azure-terraform-mdm
+  annotations:
+    gitlab.com/project-slug: Platform-Engineering-Services/PES-Playbooks
+    backstage.io/techdocs-ref: dir:/docs
+  tags:
+    - terraform
+    - azure
+    - mdm
+spec:
+  type: service
+  owner: Platform-Engineering-Services/terraform-code-managers
+  lifecycle: production
